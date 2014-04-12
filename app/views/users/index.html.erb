@@ -1,5 +1,7 @@
 <h1>Listing users</h1>
 
+<%= link_to 'New User', new_user_path, class: 'button' %>
+
 <table>
   <tr>
     <th>Name</th>
@@ -23,7 +25,3 @@
   </tr>
 <% end %>
 </table>
-
-<br />
-
-<%= link_to 'New User', new_user_path %>
