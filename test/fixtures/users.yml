@@ -1,13 +1,13 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
 
 one:
-  name: MyString
-  email: MyString
-  location: MyString
-  description: MyText
+  name: Gustavo Morales
+  email: gustavo.morales@gmail.com
+  location: Barranquilla, Colombia
+  description:
 
 two:
-  name: MyString
-  email: MyString
-  location: MyString
-  description: MyText
+  name: Pedro Perez
+  email: pedro.perez@gmail.com
+  location:
+  description:

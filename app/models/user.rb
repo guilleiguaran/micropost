@@ -9,4 +9,9 @@ class User < ActiveRecord::Base
   attr_accessible :description, :email, :location, :name
 
   has_many :posts
+
+  validates :email, presence: true,
+                    uniqueness: true
+  validates :password, presence: true
+  validates :name, presence: true
 end

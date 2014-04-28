@@ -1,5 +1,6 @@
 class PostsController < ApplicationController
   before_filter :get_users
+  before_filter :authenticate_user!, only: [:new, :create, :edit, :update, :destroy]
 
   # GET /posts
   # GET /posts.json
