@@ -7,7 +7,7 @@ See Wiki https://github.com/gmoralesc/micropost/wiki
 === Run the app in your computer
 
 1. Clone the repository:
-       git clone https://github.com/gmorales/micropost
+       git clone https://github.com/gmoralesc/micropost
 
 2. Change directory and prepare:
        cd micropost
@@ -15,6 +15,12 @@ See Wiki https://github.com/gmoralesc/micropost/wiki
 
 3. Migrate data:
        rake db:migrate
+       
+4. Prepare data for test:
+       rake db:test:prepare
+       
+3. Test it:
+       rake test
 
 4. View in the Browser http://localhost:3000
        rails s
